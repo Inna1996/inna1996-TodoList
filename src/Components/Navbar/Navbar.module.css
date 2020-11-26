@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+    padding: 0px 20px 0px 20px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+}
+
+.link {
+    padding: 0px 15px;
+    margin-right: 5px;
+}
+
+a.activeLink {
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media (max-width:590px) {
+    .navbar {
+        padding: 40px 20px 0px 20px;
+    }
+}
+
+@media (max-width:540px) {
+    .link a {
+        font-size: 16px;
+    }
+
+    a.activeLink {
+        font-size: 22px;
+    }
+
+    .link {
+        padding: 0px 10px;
+        margin-right: 3px;
+    }
+}

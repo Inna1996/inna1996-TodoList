@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to right, rgb(165, 30, 142), rgb(247, 199, 239), rgb(165, 30, 142));
+    height: 975px;
+}
+
+.main {
+    margin: auto;
+    max-width: 570px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+.main_header {
+    padding: 15px 10px 0;
+    margin-bottom: 10px;
+}
+
+.switchLanguage {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid rgb(236, 237, 241);
+    border-radius: 6px;
+    padding: 0.4rem;
+    transition: all 0.5s;
+    outline: none;
+    margin-right: 2px;
+}
+
+.button:hover {
+    background: rgb(235, 236, 241);
+    opacity: .7;
+    border: 1px solid #fff;
+    color: rgb(175, 20, 180);
+}
+
+.button:focus {
+    background: rgb(235, 236, 241);
+    border: 1px solid #fff;
+    color: rgb(175, 20, 180);
+}
+
+.logo {
+    background: url(./assets/images/whs.png)center center no-repeat;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+}
+
+@media (max-width:720px) {
+    .button {
+        font-size: 13px;
+        padding: 0.3rem;
+    }
+
+    .wrapper {
+        padding: 20px 20px 0 20px;
+    }
+
+    .switchLanguage {
+        right: 4%;
+    }
+}
+
+@media (max-width:590px) {
+    .logo {
+        top: 2%;
+    }
+}
+
+@media (max-width:540px) {
+    .main {
+        padding-top: 17px;
+    }
+
+    body {
+        background: rgba(226, 151, 214, 0.877);
+    }
+
+    .button {
+        font-size: 11px;
+    }
+
+    .switchLanguage {
+        top: 2%;
+    }
+
+    .main_header {
+        padding: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:420px) {
+    .main {
+        padding-top: 20px;
+    }
+
+    .button {
+        font-size: 8px;
+    }
+}

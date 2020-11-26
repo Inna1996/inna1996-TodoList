@@ -1,0 +1,27 @@
+.inputItem {
+    width: 90%;
+}
+
+.input_Error {
+    color: red;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.errorExisting {
+    margin-bottom: 0;
+    color: red;
+    font-size: 13px;
+}
+
+@media (max-width:540px) {
+    .wrapper {
+        margin-bottom: 2rem;
+    }
+}

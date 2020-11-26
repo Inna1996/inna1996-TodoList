@@ -1,0 +1,258 @@
+.list_wrapper {
+    padding: 0 15px 0;
+    border: 2px solid rgb(158, 156, 156);
+    border-radius: 10px;
+    background: rgba(61, 60, 60, 0.493);
+}
+
+.list {
+    list-style-type: none;
+    padding: 0px 10px;
+    min-height: 337px;
+}
+
+.arrowRight,
+.arrowLeft {
+    background: url(../../assets/images/arrow.svg)center center no-repeat;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+
+.arrows {
+    padding-top: 18px;
+}
+
+.arrows button:hover {
+    opacity: .9;
+}
+
+.arrows button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.arrowLeft {
+    transform: rotate(180deg);
+}
+
+.link:hover {
+    opacity: .6;
+    transition: 0.2s linear;
+}
+
+.link a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.link a:hover {
+    color: rgb(89, 126, 248);
+    transition: 0.2s linear;
+}
+
+.error {
+    color: red;
+    margin: auto;
+}
+
+.aboutMe {
+    margin: auto;
+    padding: 2px 10px;
+    /* width: 550px; */
+}
+
+.name {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.avatar img {
+    width: 150px;
+    height: auto;
+    border-radius: 35px;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(161, 160, 160);
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    background: rgba(241, 238, 238, 0.39);
+}
+
+a.contact_link {
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+    font-size: 12px;
+}
+
+.mail,
+.teleg {
+    position: relative;
+    padding-left: 18px;
+    transform-origin: 0 0;
+    margin-bottom: 7px;
+}
+
+.mail:hover,
+.teleg:hover {
+    color: rgb(93, 125, 231);
+    transition: 0.2s linear;
+}
+
+.mail::before,
+.teleg::before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    left: -2px;
+    top: -2px;
+}
+
+.mail::before {
+    background: url(../../assets/images/email.svg)center center no-repeat;
+
+}
+
+.teleg::before {
+    background: url(../../assets/images/telegram.svg)center center no-repeat;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.contacts {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.mediaLink {
+    margin-right: 9px;
+    width: 25px;
+    height: 25px;
+    color: rgb(146, 143, 143);
+}
+
+@media (max-width:725px) {
+    .profile {
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width:720px) {
+    .name {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    a.contact_link {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .profile {
+        margin-bottom: 16px;
+    }
+
+    .mediaLink {
+        margin-right: 13px;
+        width: 27px;
+        height: 27px;
+    }
+
+    .link a {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width:570px) {
+
+    .name {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    a.contact_link {
+        font-size: 14px;
+
+    }
+
+    .contacts {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-left: 0;
+    }
+
+    .avatar {
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+
+    .mediaLink {
+        margin-right: 7px;
+    }
+
+    .link a {
+        font-size: 17px;
+    }
+
+    .arrowRight,
+    .arrowLeft {
+        width: 65px;
+        height: 65px;
+    }
+
+}
+
+@media (max-width:485px) {
+    .profile {
+        padding: 15px 40px;
+    }
+
+    .headers {
+        padding-left: 15px;
+    }
+}
