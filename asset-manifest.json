@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/inna1996-TodoList/static/css/main.d9dd74a2.chunk.css",
+    "main.js": "/inna1996-TodoList/static/js/main.1f317a50.chunk.js",
+    "main.js.map": "/inna1996-TodoList/static/js/main.1f317a50.chunk.js.map",
+    "runtime-main.js": "/inna1996-TodoList/static/js/runtime-main.3c378685.js",
+    "runtime-main.js.map": "/inna1996-TodoList/static/js/runtime-main.3c378685.js.map",
+    "static/js/2.24e78031.chunk.js": "/inna1996-TodoList/static/js/2.24e78031.chunk.js",
+    "static/js/2.24e78031.chunk.js.map": "/inna1996-TodoList/static/js/2.24e78031.chunk.js.map",
+    "static/js/3.19b752d2.chunk.js": "/inna1996-TodoList/static/js/3.19b752d2.chunk.js",
+    "static/js/3.19b752d2.chunk.js.map": "/inna1996-TodoList/static/js/3.19b752d2.chunk.js.map",
+    "index.html": "/inna1996-TodoList/index.html",
+    "static/css/main.d9dd74a2.chunk.css.map": "/inna1996-TodoList/static/css/main.d9dd74a2.chunk.css.map",
+    "static/js/2.24e78031.chunk.js.LICENSE.txt": "/inna1996-TodoList/static/js/2.24e78031.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.module.css": "/inna1996-TodoList/static/media/telegram.7cd22cf9.svg",
+    "static/media/Repo.module.css": "/inna1996-TodoList/static/media/star.9abf6189.svg",
+    "static/media/spinner.7aabed80.svg": "/inna1996-TodoList/static/media/spinner.7aabed80.svg",
+    "static/media/App.module.css": "/inna1996-TodoList/static/media/whs.08ae621e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c378685.js",
+    "static/js/2.24e78031.chunk.js",
+    "static/css/main.d9dd74a2.chunk.css",
+    "static/js/main.1f317a50.chunk.js"
+  ]
+}
