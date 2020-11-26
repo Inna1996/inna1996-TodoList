@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/inna1996-TodoList/static/css/main.304aab16.chunk.css",
-    "main.js": "/inna1996-TodoList/static/js/main.79fd71a3.chunk.js",
-    "main.js.map": "/inna1996-TodoList/static/js/main.79fd71a3.chunk.js.map",
+    "main.css": "/inna1996-TodoList/static/css/main.01d1faf8.chunk.css",
+    "main.js": "/inna1996-TodoList/static/js/main.4a9a890a.chunk.js",
+    "main.js.map": "/inna1996-TodoList/static/js/main.4a9a890a.chunk.js.map",
     "runtime-main.js": "/inna1996-TodoList/static/js/runtime-main.3c378685.js",
     "runtime-main.js.map": "/inna1996-TodoList/static/js/runtime-main.3c378685.js.map",
     "static/js/2.24e78031.chunk.js": "/inna1996-TodoList/static/js/2.24e78031.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.19b752d2.chunk.js": "/inna1996-TodoList/static/js/3.19b752d2.chunk.js",
     "static/js/3.19b752d2.chunk.js.map": "/inna1996-TodoList/static/js/3.19b752d2.chunk.js.map",
     "index.html": "/inna1996-TodoList/index.html",
-    "static/css/main.304aab16.chunk.css.map": "/inna1996-TodoList/static/css/main.304aab16.chunk.css.map",
+    "static/css/main.01d1faf8.chunk.css.map": "/inna1996-TodoList/static/css/main.01d1faf8.chunk.css.map",
     "static/js/2.24e78031.chunk.js.LICENSE.txt": "/inna1996-TodoList/static/js/2.24e78031.chunk.js.LICENSE.txt",
     "static/media/AboutMe.module.css": "/inna1996-TodoList/static/media/telegram.7cd22cf9.svg",
     "static/media/Repo.module.css": "/inna1996-TodoList/static/media/star.9abf6189.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3c378685.js",
     "static/js/2.24e78031.chunk.js",
-    "static/css/main.304aab16.chunk.css",
-    "static/js/main.79fd71a3.chunk.js"
+    "static/css/main.01d1faf8.chunk.css",
+    "static/js/main.4a9a890a.chunk.js"
   ]
 }
