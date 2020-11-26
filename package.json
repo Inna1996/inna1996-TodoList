@@ -2,7 +2,7 @@
   "name": "list-todo-ina",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://webheroschool.github.io/toDoList/",
+  "homepage": "https://inna1996.github.io/inna1996-TodoList/.",
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
     "@octokit/rest": "^18.0.9",
