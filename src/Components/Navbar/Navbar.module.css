@@ -8,7 +8,7 @@
 
 .link a {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 19px;
     color: rgb(54, 53, 53);
     font-weight: bold;
 }
@@ -19,7 +19,7 @@
 }
 
 a.activeLink {
-    color: rgb(46, 45, 45);
+    color: rgb(53, 2, 44);
     font-weight: bold;
     font-size: 25px;
 }
